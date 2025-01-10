@@ -25,3 +25,6 @@ license = {file = "LICENSE"}
 [project.urls]
 Homepage = "https://github.com/Zhaxxy/lbptoolspy-lite/"
 Issues = "https://github.com/Zhaxxy/lbptoolspy-lite/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/lbptoolspy"]
